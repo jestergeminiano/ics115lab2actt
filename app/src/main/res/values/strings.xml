@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LAB 2-ICS115</string>
+    <string name="title_linear">SM North</string>
+    <string name="title_constraint">Trinoma</string>
+    <string name="title_relative">Vertis North</string>
+    <string name="todo">TODO</string>
+    <string name="location_linear">Location: EDSA corner North Avenue</string>
+    <string name="location_constraint">Location: North Ave, Quezon City, Metro Manila</string>
+    <string name="location_relative">Location: Mindanao Avenue, Quezon City, Metro Manila</string>
+    <string name="distance_linear">Distance from UST: 8 km</string>
+    <string name="distance_constraint">Distance from UST: 7.7 km</string>
+    <string name="distance_relative">Distance from UST: 7.8 km</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="todo1">Todo1</string>
+</resources>

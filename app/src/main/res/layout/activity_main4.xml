@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <Button
+        android:id="@+id/btn_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Linear Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/btn_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:text="Relative Layout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/btn_constraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:text="Constraint Layout"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="335dp" />
+</RelativeLayout>
